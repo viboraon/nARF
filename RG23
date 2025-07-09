@@ -1953,7 +1953,7 @@ local function reanimate()
 	}
 end
 
-btn("NAME REANIMATE", function()
+btn("EvilDoll Entity", function()
 	local t=reanimate()
 	if type(t)~="table" then return end
 	local raycastlegs=t.raycastlegs
