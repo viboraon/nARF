@@ -2111,7 +2111,6 @@ Neck.C0=Lerp(Neck.C0,cfMul(cf(0,1,0),angles(-1.5707963267948966,0,3.141592653589
 	end
 })
 
--- 🔁 Alternador con Q (se pone al final para que todo funcione luego del modo)
 local UserInputService = game:GetService("UserInputService")
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
